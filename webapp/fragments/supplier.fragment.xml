@@ -34,7 +34,7 @@
                     <Text text="{BP_ID}"></Text>
                     <Input value="{CITY}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
                     <Text text="{COMPANY_NAME}"></Text>
-                    <Text text="{EMAIL_ADDRESS}"></Text>
+                    <Text text="{WEB_ADDRESS}"></Text>
                 </cells>
             </ColumnListItem>
         </items>
