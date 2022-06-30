@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+    <Select items="{/cities}">
+        <core:Item key="{name}" text="{name}"></core:Item>
+    </Select>
+    <ComboBox items="{/cities}">
+        <core:Item key="{name}" text="{name}"></core:Item>
+    </ComboBox>
+    <MultiComboBox items="{/cities}" id="mcb">
+        <core:Item key="{name}" text="{name}"></core:Item>
+    </MultiComboBox>
+    <Button text="Print Selected" press="onPrintSelect"></Button>
+</core:FragmentDefinition>
