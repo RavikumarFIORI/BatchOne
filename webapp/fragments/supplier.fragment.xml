@@ -27,6 +27,11 @@
                     <Label text="Web"></Label>
                 </header>
             </Column>
+            <Column minScreenWidth="Tablet">
+                <header>
+                    <Label text="Role"></Label>
+                </header>
+            </Column>            
         </columns>
         <items>
             <ColumnListItem type="Navigation">
@@ -35,6 +40,7 @@
                     <Input value="{CITY}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
                     <Text text="{COMPANY_NAME}"></Text>
                     <Text text="{WEB_ADDRESS}"></Text>
+                    <Text text="{BP_ROLE}"></Text>
                 </cells>
             </ColumnListItem>
         </items>
